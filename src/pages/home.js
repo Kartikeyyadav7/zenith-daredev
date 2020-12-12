@@ -46,10 +46,10 @@ function Home({ classes }) {
 					variant="contained"
 					color="primary"
 					component={Link}
-					to="/"
+					to="/heritage"
 					className={classes.buttonCulture}
 				>
-					Culture
+					Heritage
 				</Button>
 				<Button
 					variant="contained"
