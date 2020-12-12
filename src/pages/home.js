@@ -37,7 +37,7 @@ function Home({ classes }) {
 					variant="contained"
 					color="primary"
 					component={Link}
-					to="/"
+					to="/timeline"
 					className={classes.button}
 				>
 					Timeline

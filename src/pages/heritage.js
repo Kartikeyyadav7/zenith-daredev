@@ -10,11 +10,6 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import mayaCalender from "../assets/mayacalender.png";
-import mayacurrency from "../assets/mayacurrency.png";
-import mayatoys from "../assets/mayatoys.png";
-import mayawarwear from "../assets/mayawarwear.png";
-import mayawomencloth from "../assets/mayawomencloth.png";
-import mayaweapons from "../assets/mayaweapons.png";
 
 const HomeItems = ({ classes }) => {
 	const [isFlipped, setIsFlipped] = useState(false);
@@ -138,10 +133,9 @@ const HomeItems = ({ classes }) => {
 							<CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										Maya civilization is located in meso american region
-										presently mexicothe Yucatan Peninsula and modern-day
-										Guatemala; Belize and parts of the Mexican states of Tabasco
-										and Chiapas and the western part of Honduras and El Salvador
+										The Maya calendar is a system of three interlacing calendars
+										and almanacs which was used by several cultures in Central
+										America, most famously the Maya civilization.
 									</Typography>
 								</CardContent>
 							</CardActionArea>
@@ -203,10 +197,11 @@ const HomeItems = ({ classes }) => {
 							<CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										Maya civilization is located in meso american region
-										presently mexicothe Yucatan Peninsula and modern-day
-										Guatemala; Belize and parts of the Mexican states of Tabasco
-										and Chiapas and the western part of Honduras and El Salvador
+										The most famous of all Mayan sports was, of course, the
+										Mayan ball game which had a ritualistic status and large
+										ball courts were built specifically for this game. games
+										such as Tlachtli, Jai Alai, and board games like Bul and
+										Patolli.
 									</Typography>
 								</CardContent>
 							</CardActionArea>
@@ -268,10 +263,10 @@ const HomeItems = ({ classes }) => {
 							<CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										Maya civilization is located in meso american region
-										presently mexicothe Yucatan Peninsula and modern-day
-										Guatemala; Belize and parts of the Mexican states of Tabasco
-										and Chiapas and the western part of Honduras and El Salvador
+										Grow crops such as corn (maize), beans, squash and cassava
+										(manioc). lasted until about 300 B.C., Maya farmers began to
+										expand their presence both in the highland and lowland
+										regions.
 									</Typography>
 								</CardContent>
 							</CardActionArea>
@@ -333,10 +328,10 @@ const HomeItems = ({ classes }) => {
 							<CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										Maya civilization is located in meso american region
-										presently mexicothe Yucatan Peninsula and modern-day
-										Guatemala; Belize and parts of the Mexican states of Tabasco
-										and Chiapas and the western part of Honduras and El Salvador
+										The clothing worn by the Maya depended on the region they
+										lived in and their social status. They wore colorful
+										clothing made from animal skins. They also wore feather
+										headdresses and fancy jewelry.
 									</Typography>
 								</CardContent>
 							</CardActionArea>
@@ -398,10 +393,10 @@ const HomeItems = ({ classes }) => {
 							<CardActionArea>
 								<CardContent>
 									<Typography gutterBottom variant="h5" component="h2">
-										Maya civilization is located in meso american region
-										presently mexicothe Yucatan Peninsula and modern-day
-										Guatemala; Belize and parts of the Mexican states of Tabasco
-										and Chiapas and the western part of Honduras and El Salvador
+										With between 166 and 250 named gods, the Mayans had a
+										complex and changeable pantheon. They had gods to oversee
+										every human action and aspect of life gods for birth and
+										death, for the ball game and gambling etc.
 									</Typography>
 								</CardContent>
 							</CardActionArea>
