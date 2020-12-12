@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
@@ -6,9 +6,16 @@ import Switch from "@material-ui/core/Switch";
 import withStyles from "@material-ui/core/styles/withStyles";
 import styles from "../styles/Navbar";
 import { Link } from "react-router-dom";
-import Zero from "../assets/logo.png";
+import ZeroLight from "../assets/logolight.png";
+import ZeroDark from "../assets/logodark.png";
 
-function Navbar({ classes }) {
+function Navbar({ classes, setTheme, changeTheme }) {
+	const [toggleLogo, setToggleLogo] = useState(false);
+	const toggleSwitch = () => {
+		changeTheme(!setTheme);
+		setToggleLogo(!toggleLogo);
+	};
+
 	const Navbar = (
 		<div className={classes.root}>
 			<AppBar position="static" className={classes.navbar}>
@@ -19,10 +26,14 @@ function Navbar({ classes }) {
 						component={Link}
 						to="/"
 					>
-						<img src={Zero} alt="logo-zero" />
+						{toggleLogo ? (
+							<img src={ZeroLight} alt="logo-zero" />
+						) : (
+							<img src={ZeroDark} alt="logo-zero" />
+						)}
 					</Button>
 					<div>
-						<Switch />
+						<Switch onChange={toggleSwitch} />
 					</div>
 				</Toolbar>
 			</AppBar>

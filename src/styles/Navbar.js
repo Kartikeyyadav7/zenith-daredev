@@ -17,7 +17,9 @@ const styles = (theme) => ({
 		flexGrow: 1,
 		justifyContent: "inherit",
 	},
-
+	svg: {
+		color: "white",
+	},
 	grow: {
 		flexGrow: 1,
 	},

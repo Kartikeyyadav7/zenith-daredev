@@ -18,15 +18,8 @@ function Home({ classes }) {
 		>
 			<Grid item xs={6} className={classes.textItem}>
 				<div className="title" style={{ marginBottom: `4rem` }}>
-					<Typography
-						variant="h4"
-						style={{
-							fontWeight: "900",
-							fontSize: "3.125rem",
-							textShadow: `2px 2px white`,
-						}}
-					>
-						MAYAN CIVILIZATION
+					<Typography variant="h4" className={classes.mainText}>
+						MAYA CIVILIZATION
 					</Typography>
 					<Typography
 						variant="h5"

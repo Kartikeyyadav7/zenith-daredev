@@ -11,6 +11,11 @@ const styles = (theme) => ({
 			flexDirection: "column",
 		},
 	},
+	mainText: {
+		fontWeight: "900",
+		fontSize: "3.125rem",
+		textShadow: theme.overrides.MuiButton.textShadow.textShadow,
+	},
 	title: {
 		fontFamily: "Nunito",
 		marginBottom: `10rem`,
@@ -28,10 +33,10 @@ const styles = (theme) => ({
 		paddingBottom: `2rem`,
 	},
 	button: {
-		background: "#D69B79",
-		boxShadow: `0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)`,
+		background: theme.overrides.MuiButton.buttonColor.background,
+		boxShadow: theme.overrides.MuiButton.buttonColor.boxShadow,
 		borderRadius: `120px`,
-		color: "black",
+		color: theme.overrides.MuiButton.button.color,
 		marginBottom: "4rem",
 		marginRight: "1.5rem",
 		"&:active": {
@@ -44,10 +49,10 @@ const styles = (theme) => ({
 	},
 
 	buttonCulture: {
-		background: "#D79C7B",
-		boxShadow: ` 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)`,
+		background: theme.overrides.MuiButton.buttonCulture.background,
+		boxShadow: theme.overrides.MuiButton.buttonCulture.boxShadow,
 		borderRadius: `120px`,
-		color: "black",
+		color: theme.overrides.MuiButton.button.color,
 		marginBottom: "4rem",
 		marginRight: "1.5rem",
 		"&:active": {
@@ -59,10 +64,10 @@ const styles = (theme) => ({
 		fontWeight: "900",
 	},
 	buttonShop: {
-		background: "#DBAA94",
-		boxShadow: ` 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)`,
+		background: theme.overrides.MuiButton.buttonShop.background,
+		boxShadow: theme.overrides.MuiButton.buttonShop.boxShadow,
 		borderRadius: `120px`,
-		color: "black",
+		color: theme.overrides.MuiButton.button.color,
 		marginBottom: "4rem",
 		"&:active": {
 			transform: `translateY(4px)`,

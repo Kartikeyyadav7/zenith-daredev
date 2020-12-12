@@ -8,13 +8,4 @@
 	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
-	background: radial-gradient(
-		93.37% 320.48% at 98.88% 2.61%,
-		#b68b72 0%,
-		#deb6a7 49.64%,
-		#ce7c46 100%
-	);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
 }
