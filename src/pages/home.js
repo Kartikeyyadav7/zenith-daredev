@@ -17,11 +17,24 @@ function Home({ classes }) {
 			className={classes.mainGrid}
 		>
 			<Grid item xs={6} className={classes.textItem}>
-				<div className="title" style={{ marginBottom: `8rem` }}>
-					<Typography variant="h4">MAYAN CIVILIZATION</Typography>
+				<div className="title" style={{ marginBottom: `4rem` }}>
+					<Typography
+						variant="h4"
+						style={{
+							fontWeight: "900",
+							fontSize: "3.125rem",
+							textShadow: `2px 2px white`,
+						}}
+					>
+						MAYAN CIVILIZATION
+					</Typography>
 					<Typography
 						variant="h5"
-						style={{ marginTop: "5rem", marginRight: "5rem" }}
+						style={{
+							marginTop: "5rem",
+							marginRight: "5rem",
+							fontWeight: "600",
+						}}
 					>
 						A Mayan to write the whole impactful history of the world and one of
 						the most promising civilization in the world welcomes you{" "}
@@ -32,9 +45,27 @@ function Home({ classes }) {
 					color="primary"
 					component={Link}
 					to="/"
-					style={{ marginBottom: "2rem" }}
+					className={classes.button}
 				>
 					Timeline
+				</Button>
+				<Button
+					variant="contained"
+					color="primary"
+					component={Link}
+					to="/"
+					className={classes.buttonCulture}
+				>
+					Culture
+				</Button>
+				<Button
+					variant="contained"
+					color="primary"
+					component={Link}
+					to="/"
+					className={classes.buttonShop}
+				>
+					Shop
 				</Button>
 			</Grid>
 			<Grid item xs={6} className={classes.img}>
