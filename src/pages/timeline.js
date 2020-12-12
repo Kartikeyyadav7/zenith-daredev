@@ -34,7 +34,7 @@ const Timeline1 = ({ classes }) => {
 					<img
 						className={classes.media}
 						src={timeline1}
-						alt="mayacalender"
+						alt="olmec men"
 					/>
 				
 				</CardActionArea>
@@ -61,7 +61,7 @@ const Timeline1 = ({ classes }) => {
 					<img
 						className={classes.media}
 						src={timeline2}
-						alt="mayacalender"
+						alt="numbering"
 					/>
 				
 				</CardActionArea>
@@ -90,7 +90,7 @@ we were one of the first civilization to use our own calendar and have our own n
 					<img
 						className={classes.media}
 						src={timeline3}
-						alt="mayacalender"
+						alt="calendarr"
 					/>
 				
 				</CardActionArea>
@@ -117,7 +117,7 @@ we were one of the first civilization to use our own calendar and have our own n
 					<img
 						className={classes.media}
 						src={timeline4}
-						alt="mayacalender"
+						alt="timeline4"
 					/>
 				
 				</CardActionArea>
@@ -144,7 +144,7 @@ we were one of the first civilization to use our own calendar and have our own n
 					<img
 						className={classes.media}
 						src={timeline5}
-						alt="mayacalender"
+						alt="spanish ruler"
 					/>
 				
 				</CardActionArea>
@@ -170,7 +170,7 @@ we were one of the first civilization to use our own calendar and have our own n
 					<img
 						className={classes.media}
 						src={timeline6}
-						alt="mayacalender"
+						alt="scenery of mayan"
 					/>
 				
 				</CardActionArea>
