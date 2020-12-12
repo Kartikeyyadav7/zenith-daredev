@@ -55,7 +55,7 @@ function Home({ classes }) {
 					variant="contained"
 					color="primary"
 					component={Link}
-					to="/"
+					to="/shop"
 					className={classes.buttonShop}
 				>
 					Shop

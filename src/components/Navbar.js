@@ -8,6 +8,7 @@ import styles from "../styles/Navbar";
 import { Link } from "react-router-dom";
 import ZeroLight from "../assets/logolight.png";
 import ZeroDark from "../assets/logodark.png";
+import Tooltip from "@material-ui/core/Tooltip";
 
 function Navbar({ classes, setTheme, changeTheme }) {
 	const [toggleLogo, setToggleLogo] = useState(false);
@@ -20,18 +21,21 @@ function Navbar({ classes, setTheme, changeTheme }) {
 		<div className={classes.root}>
 			<AppBar position="static" className={classes.navbar}>
 				<Toolbar className={classes.container}>
-					<Button
-						color="inherit"
-						className={classes.title}
-						component={Link}
-						to="/"
-					>
-						{toggleLogo ? (
-							<img src={ZeroLight} alt="logo-zero" />
-						) : (
-							<img src={ZeroDark} alt="logo-zero" />
-						)}
-					</Button>
+					<Tooltip title="Zero of Maya Civilization">
+						<Button
+							color="inherit"
+							className={classes.title}
+							component={Link}
+							to="/"
+						>
+							{toggleLogo ? (
+								<img src={ZeroLight} alt="logo-zero" />
+							) : (
+								<img src={ZeroDark} alt="logo-zero" />
+							)}
+						</Button>
+					</Tooltip>
+
 					<div>
 						<Switch onChange={toggleSwitch} />
 					</div>
