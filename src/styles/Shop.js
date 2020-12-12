@@ -15,6 +15,7 @@ const styles = (theme) => ({
 		margin: "auto",
 		flexWrap: "wrap",
 		alignContent: "flexStart",
+		marginBottom: "2rem",
 	},
 	media: {
 		width: "345px",
