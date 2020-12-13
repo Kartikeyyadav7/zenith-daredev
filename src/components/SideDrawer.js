@@ -5,25 +5,14 @@ import {
 	ListItem,
 	ListItemText,
 } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import styles from "../styles/SlideDrawer";
+import withStyles from "@material-ui/core/styles/withStyles";
 import { Link } from "react-router-dom";
 import { Menu } from "@material-ui/icons";
 import * as React from "react";
 import { useState } from "react";
 
-const useStyles = makeStyles({
-	list: {
-		width: 250,
-	},
-	linkText: {
-		textDecoration: `none`,
-		textTransform: `uppercase`,
-		color: `black`,
-	},
-});
-
-const SideDrawer = ({ navLinks }) => {
-	const classes = useStyles();
+const SideDrawer = ({ navLinks, classes }) => {
 	const [state, setState] = useState({ right: false });
 
 	const toggleDrawer = (anchor, open) => (event) => {
@@ -67,6 +56,7 @@ const SideDrawer = ({ navLinks }) => {
 			</IconButton>
 
 			<Drawer
+				classes={{ paper: classes.paper }}
 				anchor="right"
 				open={state.right}
 				onOpen={toggleDrawer("right", true)}
@@ -78,4 +68,4 @@ const SideDrawer = ({ navLinks }) => {
 	);
 };
 
-export default SideDrawer;
+export default withStyles(styles)(SideDrawer);

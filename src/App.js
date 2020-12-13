@@ -36,6 +36,9 @@ function App() {
 				textShadow: {
 					textShadow: `2px 2px black`,
 				},
+				backgroundSlider: {
+					background: `radial-gradient(93.37% 320.48% at 98.88% 2.61%, #3C3630 0%, #958079 49.64%, #24211F 100%)`,
+				},
 			},
 			MuiCssBaseline: {
 				"@global": {
@@ -69,6 +72,14 @@ function App() {
 				},
 				textShadow: {
 					textShadow: `2px 2px white`,
+				},
+				backgroundSlider: {
+					background: `radial-gradient(
+						93.37% 320.48% at 98.88% 2.61%,
+						#b68b72 0%,
+						#deb6a7 49.64%,
+						#ce7c46 100%
+					  )`,
 				},
 			},
 			MuiCssBaseline: {
