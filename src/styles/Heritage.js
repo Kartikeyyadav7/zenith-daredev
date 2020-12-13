@@ -4,9 +4,6 @@ const styles = (theme) => ({
 		width: "345px",
 		marginRight: "1rem",
 		marginTop: "1rem",
-		[theme.breakpoints.down("xs")]: {
-			width: "17rem",
-		}
 	},
 	rootFront: {
 		maxWidth: 500,
@@ -27,6 +24,14 @@ const styles = (theme) => ({
 		backdropFilter: `blur(80px)`,
 
 		borderRadius: `60px`,
+	},
+	typ: {
+		background: "transparent",
+		boxShadow: "none",
+		maxWidth: 1000,
+		width: "545px",
+		marginRight: "1rem",
+		marginTop: "1rem",
 	},
 	flip: {
 		margin: "1rem 2rem 2rem 0",
