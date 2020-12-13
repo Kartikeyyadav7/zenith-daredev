@@ -19,14 +19,11 @@ import timeline5 from "../assets/timeline5.png";
 import timeline6 from "../assets/timeline6.png";
 
 
-const Timeline1 = ({ classes }) => {
-  
+const Culture = ({ classes }) => {
 	return (
         
 		<React.Fragment>
-            <Typography className={classes.mainText}>
-                TIMELINE
-            </Typography>
+            
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineOppositeContent>
@@ -196,4 +193,4 @@ we were one of the first civilization to use our own calendar and have our own n
 	);
 };
 
-export default withStyles(styles)(Timeline1);
+export default withStyles(styles)(Culture);
