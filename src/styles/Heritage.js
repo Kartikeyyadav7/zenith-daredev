@@ -25,7 +25,9 @@ const styles = (theme) => ({
 
 		borderRadius: `60px`,
 	},
-
+	flip: {
+		marginRight: "2rem",
+	},
 	itemGrid: {
 		display: "flex",
 		maxWidth: "1100px",
