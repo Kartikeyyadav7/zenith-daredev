@@ -192,7 +192,7 @@ const HomeItems = ({ classes }) => {
 							}}
 							color="primary"
 						>
-							$ 500
+							$ 299
 						</Button>
 					</CardActions>
 				</Card>
@@ -226,7 +226,7 @@ const HomeItems = ({ classes }) => {
 							}}
 							color="primary"
 						>
-							$ 500
+							$ 489
 						</Button>
 					</CardActions>
 				</Card>
@@ -260,7 +260,7 @@ const HomeItems = ({ classes }) => {
 							}}
 							color="primary"
 						>
-							$ 500
+							$ 799
 						</Button>
 					</CardActions>
 				</Card>
@@ -294,7 +294,7 @@ const HomeItems = ({ classes }) => {
 							}}
 							color="primary"
 						>
-							$ 500
+							$ 5000
 						</Button>
 					</CardActions>
 				</Card>
@@ -328,7 +328,7 @@ const HomeItems = ({ classes }) => {
 							}}
 							color="primary"
 						>
-							$ 500
+							$ 2000
 						</Button>
 					</CardActions>
 				</Card>
