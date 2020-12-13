@@ -13,6 +13,7 @@ import faith from "../assets/mayanfaith.png";
 import sports from "../assets/mayansports.png";
 import clothing from "../assets/mayanclothing.png";
 import agriculture from "../assets/mayanagriculture.png";
+import Fade from "react-reveal/Fade"
 
 const HomeItems = ({ classes }) => {
 	return (
@@ -33,6 +34,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 2rem 2rem 0" }}
 				>
 					<FrontSide>
+						<Fade left>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img className={classes.media} src={culture} alt="culture" />
@@ -48,6 +50,7 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
 					<BackSide>
 						<Card className={classes.rootBack}>
@@ -70,6 +73,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 0 2rem 2rem" }}
 				>
 					<FrontSide>
+					<Fade right>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img
@@ -89,6 +93,7 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
 					<BackSide>
 						<Card className={classes.rootBack}>
@@ -110,6 +115,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 2rem 2rem 0" }}
 				>
 					<FrontSide>
+					<Fade left>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img className={classes.media} src={sports} alt="maya sports" />
@@ -125,6 +131,7 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
 					<BackSide>
 						<Card className={classes.rootBack}>
@@ -148,6 +155,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 0 2rem 2rem" }}
 				>
 					<FrontSide>
+					<Fade right>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img
@@ -167,6 +175,7 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
 					<BackSide>
 						<Card className={classes.rootBack}>
@@ -189,6 +198,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 2rem 2rem 0" }}
 				>
 					<FrontSide>
+					<Fade left>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img className={classes.media} src={clothing} alt="clothing" />
@@ -204,6 +214,7 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
 					<BackSide>
 						<Card className={classes.rootBack}>
@@ -226,6 +237,7 @@ const HomeItems = ({ classes }) => {
 					style={{ margin: "1rem 0 2rem 2rem" }}
 				>
 					<FrontSide>
+					<Fade right>
 						<Card className={classes.rootFront}>
 							<CardActionArea>
 								<img className={classes.media} src={faith} alt="faith" />
@@ -241,7 +253,9 @@ const HomeItems = ({ classes }) => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
+						</Fade>
 					</FrontSide>
+					
 					<BackSide>
 						<Card className={classes.rootBack}>
 							<CardActionArea>

@@ -4,6 +4,9 @@ const styles = (theme) => ({
 		width: "345px",
 		marginRight: "1rem",
 		marginTop: "1rem",
+		[theme.breakpoints.down("xs")]: {
+			width: "17rem",
+		}
 	},
 	rootFront: {
 		maxWidth: 500,
