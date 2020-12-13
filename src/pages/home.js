@@ -6,6 +6,8 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import mayan from "../assets/mayanpeople.png";
+import {motion } from "framer-motion";
+
 
 function Home({ classes }) {
 	return (
@@ -17,8 +19,8 @@ function Home({ classes }) {
 			className={classes.mainGrid}
 		>
 			<Grid item xs={6} className={classes.textItem}>
-				<div className="title" style={{ marginBottom: `4rem` }}>
-					<Typography variant="h4" className={classes.mainText}>
+				<div className="title"  style={{ marginBottom: `4rem` }}>
+					<Typography variant="h4"  className={classes.mainText}>
 						MAYA CIVILIZATION
 					</Typography>
 					<Typography
@@ -61,7 +63,11 @@ function Home({ classes }) {
 					Shop
 				</Button>
 			</Grid>
-			<Grid item xs={6} className={classes.img}>
+			
+			<Grid 
+			
+
+			item xs={6} className={classes.img}>
 				<img src={mayan} className={classes.image} alt="Mayanpeople" />
 			</Grid>
 		</Grid>
