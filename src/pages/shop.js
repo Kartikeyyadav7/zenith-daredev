@@ -15,6 +15,9 @@ import mayawarwear from "../assets/mayawarwear.png";
 import mayawomencloth from "../assets/mayawomencloth.png";
 import mayaweapons from "../assets/mayaweapons.png";
 import Fade from "react-reveal/Fade"
+import paintings from "../assets/paintings.jpg";
+import sculpture from "../assets/sculpture.jpg";
+import jewelery from "../assets/jewelery.jpg";
 
 const HomeItems = ({ classes }) => {
 	return (
@@ -210,6 +213,108 @@ const HomeItems = ({ classes }) => {
 								style={{ marginLeft: "12rem" }}
 							>
 								Weapons
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
+						>
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				</Fade>
+				<Fade left>
+					<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={paintings}
+							alt="mayawarwear"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								painting
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
+						>
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				</Fade>
+				<Fade bottom>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={sculpture}
+							alt="maya sculpture"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "9rem" }}
+							>
+								Sculptures
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "12rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
+						>
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				</Fade>
+				<Fade right>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={jewelery}
+							alt="maya jewelery"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								Jewelery
 							</Typography>
 						</CardContent>
 					</CardActionArea>
