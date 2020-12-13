@@ -18,7 +18,7 @@ const HomeItems = ({ classes }) => {
 	return (
 		<>
 			<Typography variant="h4" className={classes.mainText}>
-				CULTURE
+				HERITAGE
 			</Typography>
 			<Grid
 				container

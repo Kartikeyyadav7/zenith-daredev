@@ -7,6 +7,10 @@ const styles = (theme) => ({
 		background: "transparent",
 		boxShadow: "none",
 	},
+	navButton: {
+		color: theme.overrides.MuiButton.button.color,
+		fontWeight: "600",
+	},
 	container: {
 		maxWidth: "1200px",
 		width: `100%`,
