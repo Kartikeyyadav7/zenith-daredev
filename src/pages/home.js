@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import mayan from "../assets/mayanpeople.png";
+import { motion } from "framer-motion";
 
 function Home({ classes }) {
 	return (
@@ -54,6 +55,7 @@ function Home({ classes }) {
 					Shop
 				</Button>
 			</Grid>
+
 			<Grid item xs={6} className={classes.img}>
 				<img src={mayan} className={classes.image} alt="Mayanpeople" />
 			</Grid>

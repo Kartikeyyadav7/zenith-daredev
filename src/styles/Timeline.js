@@ -1,13 +1,17 @@
 const styles = (theme) => ({
 	root: {
 		maxWidth: 500,
-		width: "445px",
+        width: "445px",
+        height:"300px",
 		marginRight: "1rem",
 		marginTop: "1rem",
 		background: `radial-gradient(99.72% 328.19% at 1.84% 6.26%, #FFFFFF 0%, rgba(255, 255, 255, 0) 102%, #FFFFFF 100%)`,
 		filter: `drop-shadow(80px 42px 100px rgba(0, 0, 0, 0.1))`,
 		backdropFilter: `blur(80px)`,
-		borderRadius: ` 60px`,
+        borderRadius: ` 60px`,
+        [theme.breakpoints.down("xs")]: {
+			width: "17rem",
+		},
     },
     typ:{
         background: "transparent",
@@ -25,8 +29,8 @@ const styles = (theme) => ({
 		alignContent: "flexStart",
 	},
 	media: {
-        width: "400px",
-        height: "200px",
+        width: "445px",
+        height: "400px",
         left: "292px",
         top: "590px",
         mixBlendMode: "darken",
