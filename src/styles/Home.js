@@ -1,6 +1,6 @@
 const styles = (theme) => ({
 	textItem: {
-		marginBottom: `2rem`,
+		marginBottom: `1rem`,
 		[theme.breakpoints.down("xs")]: {
 			maxWidth: `100%`,
 		},
@@ -16,17 +16,30 @@ const styles = (theme) => ({
 		fontWeight: "900",
 		fontSize: "3.125rem",
 		textShadow: theme.overrides.MuiButton.textShadow.textShadow,
+		[theme.breakpoints.down("xs")]: {
+			fontSize: "3rem",
+		},
+	},
+	titleSub: {
+		marginTop: "5rem",
+		marginRight: "5rem",
+		fontWeight: "600",
+		[theme.breakpoints.down("xs")]: {
+			marginTop: "2rem",
+		},
 	},
 	title: {
 		fontFamily: "Nunito",
-		marginBottom: `10rem`,
+		marginBottom: `4rem`,
 		[theme.breakpoints.down("xs")]: {
 			width: `100%`,
+			marginBottom: `2rem`,
 		},
 	},
 	img: {
 		[theme.breakpoints.down("xs")]: {
 			maxWidth: `100%`,
+			marginTop: "-4.5rem",
 		},
 	},
 	image: {

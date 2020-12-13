@@ -9,6 +9,34 @@ const styles = (theme) => ({
 		backdropFilter: `blur(80px)`,
 		borderRadius: ` 60px`,
 	},
+	itemName: {
+		marginLeft: "12rem",
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "9rem",
+		},
+	},
+	toys: {
+		marginLeft: "15rem",
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "12rem",
+		},
+	},
+	toyPrice: {
+		marginLeft: "15rem",
+		color: "black",
+		marginTop: "-2rem",
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "12rem",
+		},
+	},
+	itemPrice: {
+		marginLeft: "14rem",
+		color: "black",
+		marginTop: "-2rem",
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "10rem",
+		},
+	},
 	itemGrid: {
 		display: "flex",
 		maxWidth: "1100px",
@@ -26,7 +54,7 @@ const styles = (theme) => ({
 	media: {
 		width: "345px",
 		[theme.breakpoints.down("xs")]: {
-			width: "17rem",
+			width: `100%`,
 		},
 		maxHeight: "240px",
 	},

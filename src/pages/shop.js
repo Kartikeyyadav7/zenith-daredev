@@ -39,22 +39,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "12rem" }}
+								className={classes.itemName}
 							>
 								Calender
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							color="primary"
-							style={{
-								marginLeft: "14rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-						>
+						<Button size="medium" color="primary" className={classes.itemPrice}>
 							$ 500
 						</Button>
 					</CardActions>
@@ -67,22 +59,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "15rem" }}
+								className={classes.toys}
 							>
 								Toys
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							style={{
-								marginLeft: "15rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-							color="primary"
-						>
+						<Button size="medium" className={classes.toyPrice} color="primary">
 							$ 500
 						</Button>
 					</CardActions>
@@ -99,22 +83,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "12rem" }}
+								className={classes.itemName}
 							>
 								Currency
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							style={{
-								marginLeft: "14rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-							color="primary"
-						>
+						<Button size="medium" className={classes.itemPrice} color="primary">
 							$ 500
 						</Button>
 					</CardActions>
@@ -131,22 +107,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "12rem" }}
+								className={classes.itemName}
 							>
-								War Wear
+								Armour
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							style={{
-								marginLeft: "14rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-							color="primary"
-						>
+						<Button size="medium" className={classes.itemPrice} color="primary">
 							$ 500
 						</Button>
 					</CardActions>
@@ -163,22 +131,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "9rem" }}
+								className={classes.itemName}
 							>
-								Women cloths
+								Clothes
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							style={{
-								marginLeft: "12rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-							color="primary"
-						>
+						<Button size="medium" className={classes.itemPrice} color="primary">
 							$ 500
 						</Button>
 					</CardActions>
@@ -195,22 +155,14 @@ const HomeItems = ({ classes }) => {
 								gutterBottom
 								variant="h5"
 								component="h2"
-								style={{ marginLeft: "12rem" }}
+								className={classes.itemName}
 							>
 								Weapons
 							</Typography>
 						</CardContent>
 					</CardActionArea>
 					<CardActions>
-						<Button
-							size="medium"
-							style={{
-								marginLeft: "14rem",
-								color: "black",
-								marginTop: "-2rem",
-							}}
-							color="primary"
-						>
+						<Button size="medium" className={classes.itemPrice} color="primary">
 							$ 500
 						</Button>
 					</CardActions>

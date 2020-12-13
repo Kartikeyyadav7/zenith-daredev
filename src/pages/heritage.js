@@ -30,7 +30,6 @@ const HomeItems = ({ classes }) => {
 					flipOnHover={true}
 					flipDirection="horizontal"
 					className={classes.flip}
-					style={{ margin: "1rem 2rem 2rem 0" }}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>
@@ -67,7 +66,7 @@ const HomeItems = ({ classes }) => {
 				<Flippy
 					flipOnHover={true}
 					flipDirection="horizontal"
-					style={{ margin: "1rem 0 2rem 2rem" }}
+					className={classes.flip2}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>
@@ -107,7 +106,7 @@ const HomeItems = ({ classes }) => {
 				<Flippy
 					flipOnHover={true}
 					flipDirection="horizontal"
-					style={{ margin: "1rem 2rem 2rem 0" }}
+					className={classes.flip}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>
@@ -145,7 +144,7 @@ const HomeItems = ({ classes }) => {
 				<Flippy
 					flipOnHover={true}
 					flipDirection="horizontal"
-					style={{ margin: "1rem 0 2rem 2rem" }}
+					className={classes.flip2}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>
@@ -186,7 +185,7 @@ const HomeItems = ({ classes }) => {
 				<Flippy
 					flipOnHover={true}
 					flipDirection="horizontal"
-					style={{ margin: "1rem 2rem 2rem 0" }}
+					className={classes.flip}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>
@@ -223,7 +222,7 @@ const HomeItems = ({ classes }) => {
 				<Flippy
 					flipOnHover={true}
 					flipDirection="horizontal"
-					style={{ margin: "1rem 0 2rem 2rem" }}
+					className={classes.flip2}
 				>
 					<FrontSide>
 						<Card className={classes.rootFront}>

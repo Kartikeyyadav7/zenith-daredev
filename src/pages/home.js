@@ -17,18 +17,11 @@ function Home({ classes }) {
 			className={classes.mainGrid}
 		>
 			<Grid item xs={6} className={classes.textItem}>
-				<div className="title" style={{ marginBottom: `4rem` }}>
+				<div className={classes.title}>
 					<Typography variant="h4" className={classes.mainText}>
 						MAYA CIVILIZATION
 					</Typography>
-					<Typography
-						variant="h5"
-						style={{
-							marginTop: "5rem",
-							marginRight: "5rem",
-							fontWeight: "600",
-						}}
-					>
+					<Typography variant="h5" className={classes.titleSub}>
 						A Mayan to write the whole impactful history of the world and one of
 						the most promising civilization in the world welcomes you{" "}
 					</Typography>
