@@ -8,6 +8,7 @@ const styles = (theme) => ({
 		filter: `drop-shadow(80px 42px 100px rgba(0, 0, 0, 0.1))`,
 		backdropFilter: `blur(80px)`,
 		borderRadius: ` 60px`,
+		
 	},
 	itemName: {
 		marginLeft: "12rem",

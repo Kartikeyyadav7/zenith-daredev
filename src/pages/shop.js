@@ -14,6 +14,7 @@ import mayatoys from "../assets/mayatoys.png";
 import mayawarwear from "../assets/mayawarwear.png";
 import mayawomencloth from "../assets/mayawomencloth.png";
 import mayaweapons from "../assets/mayaweapons.png";
+import Fade from "react-reveal/Fade"
 
 const HomeItems = ({ classes }) => {
 	return (
@@ -27,6 +28,7 @@ const HomeItems = ({ classes }) => {
 				justify="center"
 				className={classes.itemGrid}
 			>
+				<Fade left>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<img
@@ -51,6 +53,8 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
+				</Fade>
+				<Fade top>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<img className={classes.media} src={mayatoys} alt="mayatoys" />
@@ -71,6 +75,8 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
+				</Fade>
+				<Fade right>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<img
@@ -95,7 +101,9 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
-				<Card className={classes.root}>
+				</Fade>
+				<Fade left>
+					<Card className={classes.root}>
 					<CardActionArea>
 						<img
 							className={classes.media}
@@ -119,6 +127,8 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
+				</Fade>
+				<Fade bottom>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<img
@@ -143,6 +153,8 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
+				</Fade>
+				<Fade right>
 				<Card className={classes.root}>
 					<CardActionArea>
 						<img
@@ -167,6 +179,7 @@ const HomeItems = ({ classes }) => {
 						</Button>
 					</CardActions>
 				</Card>
+				</Fade>
 			</Grid>
 		</>
 	);
