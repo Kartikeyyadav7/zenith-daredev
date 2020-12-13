@@ -12,6 +12,7 @@ const styles = (theme) => ({
 		},
 	},
 	mainText: {
+		display: "block",
 		fontWeight: "900",
 		fontSize: "3.125rem",
 		textShadow: theme.overrides.MuiButton.textShadow.textShadow,

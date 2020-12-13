@@ -3,7 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Shop from "./pages/shop";
-import Timeline1 from "./pages/timeline";
+import Heritage from "./pages/heritage";
+import Timeline from "./pages/timeline";
 import Navbar from "./components/Navbar";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -97,7 +98,8 @@ function App() {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/shop" component={Shop} />
-						<Route exact path="/timeline" component={Timeline1} />
+						<Route exact path="/heritage" component={Heritage} />
+						<Route exact path="/timeline" component={Timeline} />
 					</Switch>
 				</div>
 			</Router>

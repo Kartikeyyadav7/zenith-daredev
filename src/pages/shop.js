@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "../styles/Shop";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Grid from "@material-ui/core/Grid";
@@ -17,170 +17,206 @@ import mayaweapons from "../assets/mayaweapons.png";
 
 const HomeItems = ({ classes }) => {
 	return (
-		<Grid
-			container
-			direction="row"
-			justify="center"
-			className={classes.itemGrid}
-			spacing={6}
-		>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img
-						className={classes.media}
-						src={mayaCalender}
-						alt="mayacalender"
-					/>
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "12rem" }}
+		<>
+			<Typography variant="h4" className={classes.mainText}>
+				SHOP
+			</Typography>
+			<Grid
+				container
+				direction="row"
+				justify="center"
+				className={classes.itemGrid}
+			>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={mayaCalender}
+							alt="mayacalender"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								Calender
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							color="primary"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
 						>
-							Calender
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						color="primary"
-						style={{ marginLeft: "14rem", color: "black", marginTop: "-2rem" }}
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img className={classes.media} src={mayatoys} alt="mayatoys" />
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "15rem" }}
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img className={classes.media} src={mayatoys} alt="mayatoys" />
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "15rem" }}
+							>
+								Toys
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "15rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
 						>
-							Toys
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						style={{ marginLeft: "15rem", color: "black", marginTop: "-2rem" }}
-						color="primary"
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img
-						className={classes.media}
-						src={mayacurrency}
-						alt="mayacurrency"
-					/>
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "12rem" }}
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={mayacurrency}
+							alt="mayacurrency"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								Currency
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
 						>
-							Currency
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						style={{ marginLeft: "14rem", color: "black", marginTop: "-2rem" }}
-						color="primary"
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img className={classes.media} src={mayawarwear} alt="mayawarwear" />
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "12rem" }}
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={mayawarwear}
+							alt="mayawarwear"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								War Wear
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
 						>
-							War Wear
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						style={{ marginLeft: "14rem", color: "black", marginTop: "-2rem" }}
-						color="primary"
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img
-						className={classes.media}
-						src={mayawomencloth}
-						alt="maya women cloths"
-					/>
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "9rem" }}
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={mayawomencloth}
+							alt="maya women cloths"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "9rem" }}
+							>
+								Women cloths
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "12rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
 						>
-							Women cloths
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						style={{ marginLeft: "12rem", color: "black", marginTop: "-2rem" }}
-						color="primary"
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-			<Card className={classes.root}>
-				<CardActionArea>
-					<img className={classes.media} src={mayaweapons} alt="maya weapons" />
-					<CardContent>
-						<Typography
-							gutterBottom
-							variant="h5"
-							component="h2"
-							style={{ marginLeft: "12rem" }}
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+				<Card className={classes.root}>
+					<CardActionArea>
+						<img
+							className={classes.media}
+							src={mayaweapons}
+							alt="maya weapons"
+						/>
+						<CardContent>
+							<Typography
+								gutterBottom
+								variant="h5"
+								component="h2"
+								style={{ marginLeft: "12rem" }}
+							>
+								Weapons
+							</Typography>
+						</CardContent>
+					</CardActionArea>
+					<CardActions>
+						<Button
+							size="medium"
+							style={{
+								marginLeft: "14rem",
+								color: "black",
+								marginTop: "-2rem",
+							}}
+							color="primary"
 						>
-							Weapons
-						</Typography>
-					</CardContent>
-				</CardActionArea>
-				<CardActions>
-					<Button
-						size="medium"
-						style={{ marginLeft: "14rem", color: "black", marginTop: "-2rem" }}
-						color="primary"
-					>
-						$ 500
-					</Button>
-				</CardActions>
-			</Card>
-		</Grid>
+							$ 500
+						</Button>
+					</CardActions>
+				</Card>
+			</Grid>
+		</>
 	);
 };
 
