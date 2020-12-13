@@ -215,7 +215,6 @@ const TimelineComp = ({ classes }) => {
 			direction="row"
 			justify="center"
 			className={classes.itemGrid}
-			spacing={6}
 		>
 			<Card className={classes.root}>
 				<CardActionArea>
