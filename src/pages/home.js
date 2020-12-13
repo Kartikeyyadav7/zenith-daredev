@@ -6,8 +6,8 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import mayan from "../assets/mayanpeople.png";
-import {motion } from "framer-motion";
-
+import Zoom from "react-reveal/Zoom"
+import Fade from "react-reveal/Fade"
 
 function Home({ classes }) {
 	return (
@@ -20,9 +20,11 @@ function Home({ classes }) {
 		>
 			<Grid item xs={6} className={classes.textItem}>
 				<div className="title"  style={{ marginBottom: `4rem` }}>
+					<Zoom>
 					<Typography variant="h4"  className={classes.mainText}>
 						MAYA CIVILIZATION
 					</Typography>
+					</Zoom>
 					<Typography
 						variant="h5"
 						style={{
@@ -35,6 +37,8 @@ function Home({ classes }) {
 						the most promising civilization in the world welcomes you{" "}
 					</Typography>
 				</div>
+				<Fade left>
+				<div>
 				<Button
 					variant="contained"
 					color="primary"
@@ -44,6 +48,7 @@ function Home({ classes }) {
 				>
 					Timeline
 				</Button>
+				
 				<Button
 					variant="contained"
 					color="primary"
@@ -62,6 +67,9 @@ function Home({ classes }) {
 				>
 					Shop
 				</Button>
+				
+				</div>
+				</Fade>
 			</Grid>
 			
 			<Grid 
